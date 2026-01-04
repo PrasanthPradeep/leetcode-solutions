@@ -1,9 +1,12 @@
 name: Sync LeetCode Submissions
 
 on:
-  workflow_dispatch:   # manual trigger
+  workflow_dispatch:
   schedule:
-    - cron: "0 2 * * *" # runs daily at 2 AM UTC
+    - cron: "0 2 * * *"
+
+permissions:
+  contents: write   # 🔥 THIS FIXES THE ERROR
 
 jobs:
   sync:
@@ -17,8 +20,7 @@ jobs:
         uses: joshcai/leetcode-sync@v1.7
         with:
           github-token: ${{ secrets.GITHUB_TOKEN }}
-          leetcode-username: ${{ secrets.LEETCODE_USERNAME }}
           leetcode-session: ${{ secrets.LEETCODE_SESSION }}
-          csrf-token: ${{ secrets.LEETCODE_CSRF_TOKEN }}
+          leetcode-csrf-token: ${{ secrets.LEETCODE_CSRF_TOKEN }}
           destination-folder: "leetcode"
           verbose: true
