@@ -1,5 +1,5 @@
 ## 📊 LeetCode Stats
-![LeetCode Stats](https://leetcard.jacoblin.cool/programmerprasanth?theme=dark&font=Karma&ext=heatmap)
+![LeetCode Stats](https://leetcard.jacoblin.cool/prasanth__p_?theme=dark&font=Karma&ext=heatmap)
 
 ---
 
