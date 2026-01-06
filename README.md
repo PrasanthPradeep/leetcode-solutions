@@ -6,7 +6,7 @@
 ## 📦 Repository Info
 ![GitHub Repo Size](https://img.shields.io/github/repo-size/PrasanthPradeep/leetcode-solutions?cacheSeconds=300)
 ![GitHub Last Commit](https://img.shields.io/github/last-commit/PrasanthPradeep/leetcode-solutions?cacheSeconds=300)
-![GitHub Stars](https://img.shields.io/github/stars/PrasanthPradeep/leetcode-solutions?style=social&cacheSeconds=300)
+<!--![GitHub Stars](https://img.shields.io/github/stars/PrasanthPradeep/leetcode-solutions?style=social&cacheSeconds=300)-->
 
 ---
 
